@@ -1,10 +1,4 @@
 # BTC-Price
-# Writing the README content into a file named "README.md"
-
-readme_content = """
-# README for **Bitcoin Data Fetcher**
-
----
 
 ## **Introduction**  
 This script allows you to fetch real-time Bitcoin price data from the CoinGecko API. It also displays the 24-hour percentage price change and includes support for using a proxy for enhanced security or bypassing access restrictions.
@@ -35,3 +29,47 @@ This script allows you to fetch real-time Bitcoin price data from the CoinGecko 
        "http": "http://your_proxy_address:port",
        "https": "http://your_proxy_address:port",
    }
+   ```
+4.Run the script: 
+```
+python btc.py
+```
+
+---
+
+## **Sample Output**
+When executed successfully, the script will display information like this:
+
+```
+ ██████╗ ██╗     ███████╗██╗  ██╗██╗███╗   ██╗
+ ██╔══██╗██║     ██╔════╝██║  ██║██║████╗  ██║
+ ██████╔╝██║     █████╗  ███████║██║██╔██╗ ██║
+ ██╔═══╝ ██║     ██╔══╝  ██╔══██║██║██║╚██╗██║
+ ██║     ███████╗███████╗██║  ██║██║██║ ╚████║
+ ╚═╝     ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+
+Current Bitcoin Price: $xxxxx.xx  
+Price Change Percentage: xx.xx% (rising/falling)
+```
+
+---
+
+## **Customization**
+- Modify the API URL to fetch data from other sources.
+- Enhance proxy settings for advanced security features.
+
+---
+
+## **License**
+This project is licensed under the MIT License. You are free to use and modify it as needed.
+
+---
+
+## **Feedback and Contributions**  
+We welcome your feedback and contributions! If you have ideas to improve the script or encounter issues, feel free to:  
+
+1. **Open an Issue**: Report bugs or suggest features.  
+2. **Submit a Pull Request**: Contribute directly to the codebase.  
+3. **Contact Us**: Email us at [Amir Mahdi Zare](mailto:mahnaznamani007@gmail.com).  
+
+Your feedback is invaluable and helps us make this project even better!
