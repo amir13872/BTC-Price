@@ -1,4 +1,4 @@
-# BTC-Price
+# PLEHIN
 
 ## **Introduction**  
 This script allows you to fetch real-time Bitcoin price data from the CoinGecko API. It also displays the 24-hour percentage price change and includes support for using a proxy for enhanced security or bypassing access restrictions.
