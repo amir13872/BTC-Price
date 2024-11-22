@@ -3,7 +3,7 @@
 ## **Introduction**  
 This script allows you to fetch real-time Bitcoin price data from the CoinGecko API. It also displays the 24-hour percentage price change and includes support for using a proxy for enhanced security or bypassing access restrictions.
 
----
+
 
 ## **Features**  
 - **Real-time Bitcoin Price**: Fetch up-to-date Bitcoin price in USD.  
@@ -11,13 +11,13 @@ This script allows you to fetch real-time Bitcoin price data from the CoinGecko 
 - **Proxy Compatibility**: Configure a proxy for secure and unrestricted access.  
 - **Simple and Clear Output**: Includes ASCII art of the Bitcoin logo for a fun, readable display.  
 
----
+
 
 ## **Requirements**  
 - Python 3.6 or above  
 - `requests` library (Install with: `pip install requests`)  
 
----
+
 
 ## **How to Use**  
 ### **Steps**  
@@ -35,7 +35,7 @@ This script allows you to fetch real-time Bitcoin price data from the CoinGecko 
 python btc.py
 ```
 
----
+
 
 ## **Sample Output**
 When executed successfully, the script will display information like this:
@@ -52,18 +52,18 @@ Current Bitcoin Price: $xxxxx.xx
 Price Change Percentage: xx.xx% (rising/falling)
 ```
 
----
+
 
 ## **Customization**
 - Modify the API URL to fetch data from other sources.
 - Enhance proxy settings for advanced security features.
 
----
+
 
 ## **License**
 This project is licensed under the MIT License. You are free to use and modify it as needed.
 
----
+
 
 ## **Feedback and Contributions**  
 We welcome your feedback and contributions! If you have ideas to improve the script or encounter issues, feel free to:  
